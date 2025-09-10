@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube - Início (Clone)</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/youtube-favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="home-menu">
+            <button class="menu-btn" aria-label="Botão menu inicial">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <h1>
+                <a href="#">
+                    <img src="assets/images/header-images/youtube-logo.png" alt="Logo do YouTube">
+                </a>
+            </h1>
+            <h2 class="visually-hidden">Menu principal do YouTube</h2>
+        </nav>
+        <form class="search">
+            <label class="visually-hidden" for="search">Pesquisar no YouTube</label>
+            <input class="search-bar" id="search" type="search" aria-label="barra de pesquisa" placeholder="Pesquisar" name="search">
+            <button class="search-btn" type="submit"><img src="assets/images/header-images/search.svg" alt="botão pesquisar"></button>
+        </form>
+        <div class="profile-actions">
+            <button><img src="assets/images/header-images/video.svg" alt="botão meus videos"></button>
+            <button><img src="assets/images/header-images/bell.svg" alt="botão minhas notificações"></button>
+            <img src="assets/images/header-images/avatar-pantheon.JPG" alt="Meu avatar/perfil">
+        </div>
+    </header>
+    <aside>
+        <nav class="side-menu">
+            <ul>
+                <li>
+                    <a href="#" aria-label="Botão Início">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M22.146 11.146a.5.5 0 01-.353.854H20v7.5a1.5 1.5 0 01-1.5 1.5h-5v-7h-3v7h-5A1.5 1.5 0 014 19.5V12H2.207a.5.5 0 01-.353-.854L12 1l10.146 10.146ZM18.5 9.621l-6.5-6.5-6.5 6.5V19.5H9V13a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v6.5h3.5V9.621Z" fill-rule="evenodd"></path></svg>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Botão YouTube Shorts">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="m7.61 15.719.392-.22v-2.24l-.534-.228-.942-.404c-.869-.372-1.4-1.15-1.446-1.974-.047-.823.39-1.642 1.203-2.097h.001L15.13 3.59c1.231-.689 2.785-.27 3.466.833.652 1.058.313 2.452-.879 3.118l-1.327.743-.388.217v2.243l.53.227.942.404c.869.372 1.4 1.15 1.446 1.974.047.823-.39 1.642-1.203 2.097l-.002.001-8.845 4.964-.001.001c-1.231.688-2.784.269-3.465-.834-.652-1.058-.313-2.451.879-3.118l1.327-.742Zm1.993 6.002c-1.905 1.066-4.356.46-5.475-1.355-1.057-1.713-.548-3.89 1.117-5.025a4.14 4.14 0 01.305-.189l1.327-.742-.942-.404a4.055 4.055 0 01-.709-.391c-.963-.666-1.578-1.718-1.644-2.877-.08-1.422.679-2.77 1.968-3.49l8.847-4.966c1.905-1.066 4.356-.46 5.475 1.355 1.057 1.713.548 3.89-1.117 5.025a4.074 4.074 0 01-.305.19l-1.327.742.942.403c.253.109.49.24.709.392.963.666 1.578 1.717 1.644 2.876.08 1.423-.679 2.77-1.968 3.491l-8.847 4.965ZM10 14.567a.25.25 0 00.374.217l4.45-2.567a.25.25 0 000-.433l-4.45-2.567a.25.25 0 00-.374.216v5.134Z" fill-rule="evenodd"></path></svg>
+                        <span>Shorts</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão Explorar conteúdo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.24 7.76001L14.12 14.12L7.76001 16.24L9.88001 9.88001L16.24 7.76001Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Explorar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Botão Minhas Inscrições">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M4 4.5A1.5 1.5 0 015.5 3h13A1.5 1.5 0 0120 4.5H4Zm16.5 3h-17v11h17v-11ZM3.5 6A1.5 1.5 0 002 7.5v11A1.5 1.5 0 003.5 20h17a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0020.5 6h-17Zm7.257 4.454a.5.5 0 00-.757.43v4.233a.5.5 0 00.757.429L15 13l-4.243-2.546Z" fill-rule="evenodd"></path></svg>
+                        <span>Inscrições</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão Vídeos que gostei">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M14.813 5.018 14.41 6.5 14 8h5.192c.826 0 1.609.376 2.125 1.022.711.888.794 2.125.209 3.101L21 13l.165.413c.519 1.296.324 2.769-.514 3.885l-.151.202v.5c0 1.657-1.343 3-3 3H5c-1.105 0-2-.895-2-2v-8c0-1.105.895-2 2-2h2v.282c0-.834.26-1.647.745-2.325L12 1l1.1.472c1.376.59 2.107 2.103 1.713 3.546ZM7 10.5H5c-.276 0-.5.224-.5.5v8c0 .276.224.5.5.5h2v-9Zm10.5 9h-9V9.282c0-.521.163-1.03.466-1.453l3.553-4.975c.682.298 1.043 1.051.847 1.77l-.813 2.981c-.123.451-.029.934.255 1.305.284.372.725.59 1.192.59h5.192c.37 0 .722.169.954.459.32.399.357.954.094 1.393l-.526.876c-.241.402-.28.894-.107 1.33l.165.412c.324.81.203 1.73-.32 2.428l-.152.202c-.195.26-.3.575-.3.9v.5c0 .828-.672 1.5-1.5 1.5Z" fill-rule="evenodd"></path></svg>
+                        <span>Videos com "Gostei"</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão Assistir nais tarde">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M20.5 12c0 4.694-3.806 8.5-8.5 8.5S3.5 16.694 3.5 12 7.306 3.5 12 3.5s8.5 3.806 8.5 8.5Zm1.5 0c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-9.25-5c0-.414-.336-.75-.75-.75s-.75.336-.75.75v5.375l.3.225 4 3c.331.248.802.181 1.05-.15.248-.331.181-.801-.15-1.05l-3.7-2.775V7Z" fill-rule="evenodd"></path></svg>
+                        <span>Assistir mais tarde</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão Histórico de videos">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M14.203 4.83c-1.74-.534-3.614-.418-5.274.327-1.354.608-2.49 1.6-3.273 2.843H8.25c.414 0 .75.336.75.75s-.336.75-.75.75H3V4.25c0-.414.336-.75.75-.75s.75.336.75.75v2.775c.935-1.41 2.254-2.536 3.815-3.236 1.992-.894 4.241-1.033 6.328-.392 2.088.641 3.87 2.02 5.017 3.878 1.146 1.858 1.578 4.07 1.215 6.223-.364 2.153-1.498 4.1-3.19 5.48-1.693 1.379-3.83 2.095-6.012 2.016-2.182-.08-4.26-.949-5.849-2.447-1.588-1.499-2.578-3.523-2.784-5.697-.039-.412.264-.778.676-.817.412-.04.778.263.818.675.171 1.812.996 3.499 2.32 4.748 1.323 1.248 3.055 1.973 4.874 2.04 1.818.065 3.598-.532 5.01-1.681 1.41-1.15 2.355-2.773 2.657-4.567.303-1.794-.056-3.637-1.012-5.186-.955-1.548-2.44-2.697-4.18-3.231ZM12.75 7.5c0-.414-.336-.75-.75-.75s-.75.336-.75.75v4.886l.314.224 3.5 2.5c.337.241.806.163 1.046-.174.241-.337.163-.806-.174-1.046l-3.186-2.276V7.5Z" fill-rule="evenodd"></path></svg>
+                        <span>Histórico</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão Meus Downloads">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M17.53 11.53c.293-.293.293-.767 0-1.06-.293-.293-.767-.293-1.06 0l-3.72 3.72V3c0-.414-.336-.75-.75-.75s-.75.336-.75.75v11.19l-3.72-3.72c-.293-.293-.767-.293-1.06 0-.293.293-.293.767 0 1.06l5 5 .53.53.53-.53 5-5Zm1.72 8.97c.414 0 .75-.336.75-.75s-.336-.75-.75-.75H4.75c-.414 0-.75.336-.75.75s.336.75.75.75h14.5Z" fill-rule="evenodd"></path></svg>
+                        <span>Downloads</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão YouTube Music">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px;"><g><circle id="XMLID_4814__yt149" fill="#000000" cx="12" cy="12" r="11"></circle><path fill="#FFFFFF" d="M12,6.25c3.17,0,5.75,2.58,5.75,5.75s-2.58,5.75-5.75,5.75S6.25,15.17,6.25,12S8.83,6.25,12,6.25 M12,5.25   c-3.73,0-6.75,3.02-6.75,6.75s3.02,6.75,6.75,6.75s6.75-3.02,6.75-6.75S15.73,5.25,12,5.25L12,5.25z"></path><polygon fill="#FFFFFF" points="10,15 15,12 10,9  "></polygon></g></svg>
+                        <span>YouTube Music</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão YouTube Filmes">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="m3.116 5.998 16.79-2.66.157.988-16.79 2.66-.157-.988Zm-1.481.235c-.13-.819.428-1.587 1.247-1.717l16.79-2.659c.819-.13 1.587.429 1.716 1.247l.157.988.234 1.481-1.481.235L6.463 7.999H22v11.5c0 .829-.672 1.5-1.5 1.5h-17c-.828 0-1.5-.671-1.5-1.5V8.539L1.79 7.22l-.156-.987Zm7.698 3.266h-2L9 11.999H6l-1.667-2.5H3.5v10h17v-10h-3.167L19 12h-3l-1.667-2.501h-2L14 12h-3L9.333 9.499Z" fill-rule="evenodd"></path></svg>
+                        <span>Filmes</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão Esportes">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M6.5 3.5h11V9c0 3.038-2.462 5.5-5.5 5.5S6.5 12.038 6.5 9V3.5ZM5 3.5C5 2.672 5.672 2 6.5 2h11c.828 0 1.5.672 1.5 1.5V4h2c.552 0 1 .448 1 1v3c0 2.493-1.825 4.56-4.212 4.938-1.082 1.588-2.8 2.707-4.788 2.991V17.5h1.5c.828 0 1.5.672 1.5 1.5v3H8v-3c0-.828.672-1.5 1.5-1.5H11v-1.57c-1.987-.285-3.706-1.404-4.788-2.992C3.825 12.56 2 10.493 2 8V5c0-.552.448-1 1-1h2v-.5Zm0 1.75H3.25V8c0 1.508.89 2.808 2.174 3.403C5.15 10.654 5 9.845 5 9V5.25Zm13.576 6.153C19.86 10.808 20.75 9.508 20.75 8V5.25H19V9c0 .844-.15 1.654-.424 2.403ZM9.5 20.5V19h5v1.5h-5Z" fill-rule="evenodd"></path></svg>
+                        <span>Esportes</span>
+                    </a>
+                </li>
+                <li class="hide">
+                    <a href="#" aria-label="Botão Aprender conteúdos educativos">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 27px; height: 27px; color: black;"><path clip-rule="evenodd" d="M11.271 2.689a1.5 1.5 0 011.457 0l9 5A1.5 1.5 0 0122.5 9v7a.75.75 0 01-1.5 0v-5.284l-1.5.833V17a.75.75 0 01-.741.75c-1.9.023-3.076.4-3.941.896-.71.407-1.229.895-1.817 1.448-.159.149-.322.302-.496.46a.75.75 0 01-1.046-.034l-.076-.08c-.702-.73-1.303-1.355-2.164-1.832-.875-.485-2.074-.84-3.976-.858A.75.75 0 014.5 17v-5.45l-2.228-1.24a1.5 1.5 0 010-2.622l9-5ZM6 12.383v3.891c1.703.096 2.946.468 3.946 1.022.858.475 1.508 1.07 2.08 1.652.575-.54 1.221-1.13 2.046-1.603.988-.566 2.215-.963 3.928-1.068v-3.894l-5.272 2.928a1.5 1.5 0 01-1.457 0L6 12.383ZM12 4l9 5-9 5-9-5 9-5Z" fill-rule="evenodd"></path></svg>
+                        <span>Aprender</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <div class="container">
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-1.png" alt="video - geração tech unimed - bh - ciência de dados">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Geração Tech Unimed - BH - Ciência de dados</h3>
+                        <p class="views-video">2,1 mil visualizações</p>
+                        <p class="time-video">Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-2.png" alt="video - Scrum talks">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Scrum Talks</h3>
+                        <p class="views-video">1,6 mil visualizações</p>
+                        <p class="time-video">Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-3.png" alt="video - machine learning avançado">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Machine Learning Avançado - Fast Track</h3>
+                        <p class="views-video">1,7 mil visualizações</p>
+                        <p class="time-video">Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-4.png" alt="video - global skills #2 - project planning">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Global Skills #2 - Project Planning</h3>
+                        <p class="views-video">971 visualizações</p>
+                        <p class="time-video">Transmitido há 5 dias</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-5.png" alt="video - como aprender a programar python do zero">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Como aprender a programar python do ZERO</h3>
+                        <p class="views-video">711 visualizações</p>
+                        <p class="time-video">Transmitido há 6 dias</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-6.jpg" width="246" height="138" alt="video - geração tech unimed - bh - ciência de dados">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">ChatGPT 5 - Tudo o que você precisa saber em 5 minutos!</h3>
+                        <p class="views-video">2 mil visualizações</p>
+                        <p class="time-video">Transmitido há 1 mês</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-7.jpg" alt="video - Fale inglês no trabalho: Expressões do dia a dia na área tech" width="246" height="138">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Fale inglês no trabalho: Expressões do dia a dia na área tech.</h3>
+                        <p class="views-video">1,7 mil visualizações</p>
+                        <p class="time-video">Transmitido há 1 mês</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-8.jpg" alt="video - Reset Global - Reprogramando o trabalho com agentes de inteligência artificial" width="246" height="138">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Reset Global - Reprogramando o trabalho com agentes de inteligência artificial...</h3>
+                        <p class="views-video">926 visualizações</p>
+                        <p class="time-video">Transmitido há 1 mês</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-9.jpg" alt="video - Git Hub Certification com a DIO" width="246" height="138">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Git Hub Certification com a DIO</h3>
+                        <p class="views-video">820 visualizações</p>
+                        <p class="time-video">Transmitido há 1 mês</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-10.jpg" alt="video - Impulsione Sua Carreira com Rust: Formação Completa" width="246" height="138">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Impulsione Sua Carreira com Rust: Formação Completa</h3>
+                        <p class="views-video">1,9 mil visualizações</p>
+                        <p class="time-video">Transmitido há 2 meses</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-11.jpg" alt="video - Conheça o programa de estágio em tecnologia da Avanade o Decola Tech" width="246" height="138">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Conheça o programa de estágio em tecnologia da Avanade o Decola Tech</h3>
+                        <p class="views-video">31 mil visualizações</p>
+                        <p class="time-video">Transmitido há 4 meses</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="videos">
+                <div class="thumbnail">
+                    <img src="assets/images/fake-videos/video-12.jpg" alt="video - Domine os fundamentos de PHP" width="246" height="138">
+                </div>
+                <div class="videos-details">
+                    <div class="channel-profile">
+                        <img src="assets/images/channel-profile.jpg" alt="Perfil do canal">
+                    </div>
+                    <div class="details">
+                        <h3 class="title-video">Domine os fundamentos de PHP</h3>
+                        <p class="views-video">3,2 mil visualizações</p>
+                        <p class="time-video">Transmitido há 4 meses</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <h3>Clone do YouTube - Vann Black</h3>
+    </footer>
+</body>
+</html>
